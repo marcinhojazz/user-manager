@@ -1,0 +1,62 @@
+# EditorConfig is awesome: https://EditorConfig.org
+# Raiz do projeto
+root = true
+
+########################################
+# Configurações Globais (para todos os arquivos)
+########################################
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+########################################
+# Arquivos Markdown
+########################################
+[*.md]
+trim_trailing_whitespace = false
+
+########################################
+# Arquivos JSON
+########################################
+[*.json]
+indent_size = 2
+
+########################################
+# Arquivos YAML
+########################################
+[*.{yml,yaml}]
+indent_size = 2
+
+########################################
+# Arquivos TypeScript / JavaScript / JSX / TSX
+########################################
+[*.{ts,tsx,js,jsx}]
+indent_size = 2
+
+########################################
+# Arquivos Vue
+########################################
+[*.vue]
+indent_size = 2
+
+########################################
+# Arquivos C#
+########################################
+[*.cs]
+indent_size = 4
+dotnet_sort_system_directives_first = true
+# Insere nova linha antes de chaves de métodos, classes, etc.
+csharp_new_line_before_open_brace = all
+
+########################################
+# Arquivos CSS / SCSS
+########################################
+[*.css]
+indent_size = 2
+
+[*.scss]
+indent_size = 2
